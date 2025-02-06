@@ -8,8 +8,8 @@ env:
   # Local environment variables used later in the workflow
   AZURE_CONTAINER_REGISTRY: 'azkubecon'
   CONTAINER_NAME: 'productservice'
-  RESOURCE_GROUP: 'rg-eshop'
-  CLUSTER_NAME: 'aks-eshop'
+  RESOURCE_GROUP: 'containerapp'
+  CLUSTER_NAME: 'azkubecluster'
   DEPLOYMENT_MANIFEST_PATH: './product.yml'
   DOCKER_PATH: './DockerfileProducts.acr'
 
