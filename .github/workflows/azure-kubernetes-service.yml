@@ -9,7 +9,7 @@ env:
   AZURE_CONTAINER_REGISTRY: 'azkubecon'
   CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'containerapp'
-  CLUSTER_NAME: 'azkubecluster'
+  CLUSTER_NAME: 'aks-eshop'
   DEPLOYMENT_MANIFEST_PATH: './product.yml'
   DOCKER_PATH: './DockerfileProducts.acr'
 
